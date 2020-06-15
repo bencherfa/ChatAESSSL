@@ -19,7 +19,7 @@ public class Server
       //Le mot de passe du trousseau
         System.setProperty("javax.net.ssl.keyStorePassword","benacer123");
         System.setProperty("javax.net.debug","all");
-        String macle="macle";
+        String macle="macle";//cle AES
         try
         {
         	//La creation du socket SSL qui se fait grace au SSLSocketFactory
